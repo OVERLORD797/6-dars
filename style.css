@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.ota {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    height: 750px;
+    align-content: flex-start;
+}
+
+.bola {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 15px;
+    height: 200px;
+    background-color: red;
+    color: white;
+}
+
+
+
+@media screen and (max-width:1200px) and (min-width:1000px) {
+
+
+
+    .ota {
+        background-color: gray;
+        flex-wrap: wrap;
+    }
+
+    .bola {
+        color: black;
+        width: 300px;
+        background-color: gold;
+    }
+}
+
+@media screen and (max-width:1000px) and (min-width:800px) {
+
+    .ota {
+        background-color: green;
+        flex-wrap: wrap;
+    }
+
+    .bola {
+        color: yellow;
+        background-color: crimson;
+        width: 221px;
+    }
+}
+
+
+@media screen and (max-width:800px) and (min-width:602px) {
+
+    .ota {
+        background-color: skyblue;
+        flex-wrap: wrap;
+    }
+
+    .bola {
+        color: black;
+        background-color: orange;
+        width: 171px;
+    }
+}
+
+@media screen and (max-width:602px) and (min-width:400px) {
+
+    .ota {
+        background-color: green;
+        flex-wrap: wrap;
+    }
+
+    .bola {
+        color: yellow;
+        background-color: crimson;
+        width: 171px;
+    }
+}
+
+@media screen and (max-width:402px) and (min-width:0px) {
+
+    .ota {
+        background-color: black;
+        flex-wrap: wrap;
+    }
+
+    .bola {
+        color: black;
+        background-color: white;
+        width: 370px;
+    }
+}
